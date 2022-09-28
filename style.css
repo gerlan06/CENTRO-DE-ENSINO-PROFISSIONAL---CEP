@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+    
+   
+}
+header{
+    background-image: linear-gradient(45deg, #0B4591,#E1E6EA,#0B4591 );
+    width: 100%;
+    box-shadow: 0px 3px 10px #464646;
+
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+#espaço{
+    padding: 50px;
+}
+.logo{
+    display: flex;
+    text-align: left;
+}
+
+.logo h1{
+    color: rgb(22, 13, 13);
+}
+
+.nav-list{
+    display: flex;
+   align-items: baseline;
+    
+}
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+li a:hover{
+	background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: rgb(15, 12, 12);
+     font-weight: 400;
+}
+.login-button button{
+    border: none;
+    background-color: #0187a7;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.login-button button a{
+    text-decoration: none ;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width:730px) {
+    .nav-bar{
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item{
+        display: none;
+    }
+    .login-button{
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul{
+        display: flex;
+         flex-direction: column;
+         text-align: center;
+         padding: 1rem;
+    }
+
+   
+
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button{
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button{
+        width: 100%;
+    }
+    .open{
+        display: block;
+    }
+}
+
+/*barra de navegação*/
+
+/*corpo*/
+
+#fundo {
+	width: 100%;
+	animation:  mudançadecor 15s infinite;
+	margin: auto;
+
+	}
+
+    @keyframes mudançadecor {
+        0% {background-color: #0B4591;}
+        25% {background-color: #E1E6EA;}
+        50% {background-color: #0B4591;}
+        75% {background-color: #E1E6EA;}
+        100% {background-color: #0B4591}
+        
+      }
+
+
+  /*quadro do layout*/
+#quadro{
+	 background-image: linear-gradient(45deg, #0B4591,#E1E6EA,#0B4591 );
+    box-shadow: 0px 3px 10px #464646;
+	padding: 18px;
+	width: 100%;
+	border-radius: 15px;
+	margin: auto;
+
+}
+
+#quadro2{
+    background-image: linear-gradient(45deg, #0B4591,#E1E6EA,#0B4591 );
+   box-shadow: 0px 3px 10px #464646;
+   padding: 18px;
+   width: 60%;
+   font-weight: 80%;
+   border-radius: 15px;
+   margin: auto;
+
+}
+
+#cor{
+    background-image: linear-gradient(45deg, #0B4591,#E1E6EA,#0B4591 );
+}
+a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.centralizar{
+	text-align: center;
+	
+}
+
+
+    
+
+
+h1{
+    
+    padding: 10px ;
+    
+}
+
+.img{ 
+    
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.img2{ 
+   
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.text2{
+text-decoration: underline;
+}
+
+/*paginação*/
+.paginação {
+    display: inline-block;
+  }
+  
+  .paginação a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .paginação a.active {
+    background-image: linear-gradient(-45deg, #1d0ef7,#f0e5e8,#dd0a0a );
+    color: rgb(12, 12, 12);
+    border-radius: 10px;
+  }
+  
+  .paginação a:hover:not(.active) {background-color: #ddd;}
+
+  /*botoes*/
+  .button {
+    background-image: linear-gradient(45deg, #ED2461,#f0e5e8,#D52057 );
+    border-radius: 10px;
+   border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .text3{
+    color: #fff;
+  }
+
+  .text4{
+    color:black;
+  }
+  
+  .mapa{
+    border-radius: 20px;
+    box-shadow: 20px ;
+  }
