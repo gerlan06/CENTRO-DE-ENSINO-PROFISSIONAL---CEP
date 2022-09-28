@@ -19,7 +19,7 @@ header{
 }
 
 #espaço{
-    padding: 50px;
+    padding: 80px;
 }
 .logo{
     display: flex;
@@ -180,6 +180,8 @@ a{
 }
 
 
+
+
     
 
 
@@ -251,3 +253,5 @@ text-decoration: underline;
     border-radius: 20px;
     box-shadow: 20px ;
   }
+
+  
