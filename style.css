@@ -7,7 +7,7 @@
    
 }
 header{
-    background-image: linear-gradient(45deg, #0B4591,#E1E6EA,#0B4591 );
+    background-image: linear-gradient(45deg, #06336d,#E1E6EA, #06336d );
     width: 100%;
     box-shadow: 0px 3px 10px #464646;
 
@@ -26,18 +26,18 @@ header{
 	}
 
     @keyframes mudançadecor {
-        0% {background-color: #0B4591;}
+        0% {background-color: #06336d;}
         25% {background-color: #E1E6EA;}
-        50% {background-color: #0B4591;}
+        50% {background-color: #06336d;}
         75% {background-color: #E1E6EA;}
-        100% {background-color: #0B4591}
+        100% {background-color: #06336d}
         
       }
 
 
   /*quadro do layout*/
 #quadro{
-	 background-image: linear-gradient(45deg, #0B4591,#E1E6EA,#0B4591 );
+    background-image: linear-gradient(45deg, #06336d,#E1E6EA, #06336d );
     box-shadow: 0px 3px 10px #464646;
 	padding: 18px;
 	width: 80%;
@@ -47,7 +47,7 @@ header{
 }
 
 #quadro2{
-    background-image: linear-gradient(45deg, #0B4591,#E1E6EA,#0B4591 );
+    background-image: linear-gradient(45deg, #06336d,#E1E6EA, #06336d );
    box-shadow: 0px 3px 10px #464646;
    padding: 18px;
    width: 60%;
@@ -58,7 +58,7 @@ header{
 }
 
 #cor{
-    background-image: linear-gradient(45deg, #0B4591,#E1E6EA,#0B4591 );
+    background-image: linear-gradient(45deg, #06336d,#E1E6EA, #06336d );
 }
 a{
 	color: black;
@@ -106,7 +106,7 @@ text-decoration: underline;
   }
   
   .paginação a.active {
-    background-image: linear-gradient(-45deg, #1d0ef7,#f0e5e8,#dd0a0a );
+    background-image: linear-gradient(45deg, #06336d,#E1E6EA, #06336d );
     color: rgb(12, 12, 12);
     border-radius: 10px;
   }
@@ -115,7 +115,7 @@ text-decoration: underline;
 
   /*botoes*/
   .button {
-    background-image: linear-gradient(45deg, #0B4591,#E1E6EA,#0B4591 );
+    background-image: linear-gradient(45deg, #06336d,#E1E6EA, #06336d );
     border-radius: 10px;
    border: none;
     padding: 16px 32px;
@@ -165,7 +165,7 @@ text-decoration: underline;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: linear-gradient(45deg, #0B4591,#E1E6EA,#0B4591 );
+    background-image: linear-gradient(45deg, #06336d,#E1E6EA, #06336d );
     height: 21vh;
   }
   
@@ -204,7 +204,7 @@ text-decoration: underline;
       right: 0;
       width: 50vw;
       height: 92vh;
-      background-image: linear-gradient(45deg, #0B4591,#E1E6EA,#0B4591 );
+      background-image: linear-gradient(45deg, #06336d,#E1E6EA, #06336d );
       flex-direction: column;
       border-radius: 10px;
       align-items: center;
