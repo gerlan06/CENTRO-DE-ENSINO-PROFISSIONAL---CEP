@@ -1,0 +1,2 @@
+RewriteCond %{REQUEST_FILENAME}.html -f
+rewriteRule ^ %{REQUEST_URI}.html

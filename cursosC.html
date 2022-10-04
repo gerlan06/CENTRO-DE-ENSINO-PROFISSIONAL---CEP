@@ -23,9 +23,9 @@
         </div>
         <ul class="nav-list" style="z-index: 999;">
           
-          <li><a href="index.html">INICIO</a></li>
-          <li><a href="formandos.html">FORMANDOS</a></li>
-          <li><a href="cursosC.html">CURSOS</a></li>
+          <li><a href="inicio">INICIO</a></li>
+          <li><a href="formandos">FORMANDOS</a></li>
+          <li><a href="cursosC">CURSOS</a></li>
           <li><a href="https://www.instagram.com/cepoficial1/" target="_blank">INSTAGRAM</a></li>
           <li><a href="https://www.facebook.com/Escolacepoficial" target="_blank">FACEBOOK</a></li>
          
@@ -137,16 +137,18 @@
            >
              
            <label for="name">Nome</label>
-             <input type="text" name="nome" id="nome" required />
+             <input type="text" name="nome" placeholder="escreva aqui"  id="nome" required />
              <label for="numero">whatsapp</label>
-             <input type="numero" name="numero" id="numero" required />
+             <input type="numero" name="numero" placeholder="(92) 9xxxx-xxxx"  id="numero" required />
+             <label for="unidade">bairro</label>
+             <input type="text" name="bairro" placeholder="qual seu bairro ?"  id="bairro" required />
              <label for="curso">curso desejado</label>
              <textarea name="curso" placeholder="escreva aqui" id="curso" required></textarea>
             
              <input
                type="hidden"
                name="_next"
-               value="http://127.0.0.1:5500/obrigado.html"
+               value="http://127.0.0.1:5500/obrigado"
              />
              <button type="submit">Enviar</button>
            </form>
